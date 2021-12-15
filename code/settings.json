@@ -1,1 +1,31 @@
-
+{
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.fontFamily": "'Courier Prime', 'FontAwesome', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.cursorStyle": "underline",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "solid",
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorCustomizations": {
+        "editor.background": "#1F1F1F",
+        "editor.foreground": "#FFFFE0",
+        "editorCursor.foreground": "#977AB8",
+        "activityBar.background": "#1F1F1F",
+        "sideBar.background": "#1F1F1F",
+        "sideBar.dropBackground": "#1F1F1F",
+        "sideBarSectionHeader.background": "#1F1F1F",
+        "tab.activeBackground": "#1F1F1F",
+        "tab.inactiveBackground": "#1F1F1F",
+        "tab.border": "#1F1F1F",
+        "tab.activeBorder": "#FFFFE0",
+        "terminal.background": "#1F1F1F",
+        "button.background": "#1F1F1F",
+        "button.border": "#FFFFE0",
+        "button.hoverBackground": "#322442",
+        "checkbox.background": "#1F1F1F",
+        "input.background": "#1F1F1F",
+        "input.border": "#FFFFE0",
+        "minimap.background": "#1F1F1F",
+        "editorGroup.border": "#FFFFE0",
+        "editorGroupHeader.tabsBackground": "#1F1F1F"
+    }
+}
