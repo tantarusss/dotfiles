@@ -1,0 +1,58 @@
+# Colors (Material Theme)
+colors:
+  # Default colors
+  primary:
+    background: '#1F1F1F'
+    foreground: '#FFFFE0'
+
+  # Normal colors
+  normal:
+    black:   '#000000'  # Arbitrary
+    red:     '#e53935'
+    green:   '#91b859'
+    yellow:  '#ffb62c'
+    blue:    '#6182b8'
+    magenta: '#ff5370'  # Dark pink of the original material theme
+    cyan:    '#39adb5'
+    white:   '#a0a0a0'  # Arbitrary
+
+  # Bright colors
+  bright:
+    black:   '#4e4e4e'  # Arbitrary
+    red:     '#ff5370'
+    green:   '#c3e88d'
+    yellow:  '#ffcb6b'
+    blue:    '#82aaff'
+    magenta: '#f07178'  # Pink of the original material theme
+    cyan:    '#89ddff'
+    white:   '#ffffff'  # Arbitrary
+
+#Font
+font:
+  normal:
+    family: Courier Prime
+    style: Regular
+
+  bold:
+    family: Courier Prime
+    style: Bold
+
+  italic:
+    family: Courier Prime
+    style: Italic
+
+  bold_italic:
+    family: Courier Prime
+    style: Bold Italic
+
+  size: 11
+
+window:
+  opacity: 0.6
+
+cursor:
+  style: Underline
+  unfocused_hollow: false
+
+shell:
+  program: /bin/zsh
