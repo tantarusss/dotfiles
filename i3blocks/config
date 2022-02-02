@@ -1,0 +1,10 @@
+interval=5
+[spotifyTrack]
+command=~/.config/i3blocks/SpotifyTrack.sh
+align=center
+min_width=1920
+interval=1
+
+[time]
+command=date +%T
+interval=1
