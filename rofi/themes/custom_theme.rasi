@@ -1,0 +1,124 @@
+/******************************************************************************
+ * ROFI Color theme
+ * User: Rasi
+ * Copyright: Rasmus Steinke
+ ******************************************************************************/
+configuration {
+    font: "Droid Sans Mono 12";
+    display-drun: "";
+    drun-display-format: "{name}";
+}
+* {
+    fg:                  #FFFFE0;
+    bg:                  #1F1F1F;
+    background-color:    @bg;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+}
+window {
+    background-color: @bg;
+    border:           1;
+    border-color:     @fg;
+    padding:          5;
+}
+mainbox {
+    border:  0;
+    padding: 0;
+    background-color: @bg;
+}
+
+textbox {
+    text-color: @fg;
+    background-color: @bg;
+}
+listview {
+    fixed-height: 0;
+    border:       2px dash 0px 0px ;
+    border-color: @bg;
+    spacing:      2px ;
+    scrollbar:    false;
+    padding:      2px 0px 0px ;
+}
+element {
+    border:  2;
+    background-color: @bg;
+}
+element-text {
+    background-color: inherit;
+    text-color:       inherit;
+}
+element.normal.normal {
+    background-color: @bg;
+    text-color:       @fg;
+}
+element.normal.urgent {
+    background-color: @bg;
+    text-color:       @fg;
+}
+element.normal.active {
+    background-color: @bg;
+    text-color:       @fg;
+    bordercolor:      @fg;
+}
+element.selected.normal {
+    background-color: @bg;
+    text-color:       @fg;
+    border:           2;       
+    bordercolor:      @fg;
+}
+element.selected.urgent {
+    background-color: @bg;
+    text-color:       @fg;
+}
+element.selected.active {
+    background-color: @bg;
+    text-color:       @fg;
+    border:           2;       
+    bordercolor:      @fg;
+}
+element.alternate.normal {
+    background-color: @bg;
+    text-color:       @fg;
+}
+element.alternate.urgent {
+    background-color: @bg;
+    text-color:       @fg;
+}
+element.alternate.active {
+    background-color: @bg;
+    text-color:       @fg;
+}
+
+mode-switcher {
+    border:       2px dash 0px 0px ;
+    border-color: @bg;
+}
+inputbar {
+    spacing:    0;
+    text-color: @fg;
+    padding:    1px ;
+}
+case-indicator {
+    spacing:    0;
+    text-color: @fg;
+}
+entry {
+    spacing:    0;
+    text-color: @fg;
+}
+prompt {
+    spacing:    0;
+    text-color: @fg;
+}
+inputbar {
+    children:   [ prompt,entry,case-indicator ];
+}
+textbox-prompt-colon {
+    expand:     false;
+    str:        "";
+    margin:     0px 0.3em 0em 0em ;
+    text-color: @fg;
+    background-color: @bg;
+}
