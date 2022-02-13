@@ -1,0 +1,64 @@
+/* Remove Topbar background color and background gradient */
+.main-home-homeHeader,
+.x-entityHeader-overlay,
+.x-actionBarBackground-background,
+.main-actionBarBackground-background,
+.main-entityHeader-overlay,
+.main-entityHeader-backgroundColor
+{
+    background-color: unset !important;
+    background-image: unset !important;
+}
+
+.main-topBar-background {
+    background-color: unset !important;
+}
+.main-topBar-overlay {
+    background-color: var(--spice-main) !important;
+}
+
+/*turn all images grayscale*/
+.We1fExPHxLIRmV0rZGNo {
+    background-color: var(--spice-main) !important;
+}
+
+.npv-background-color {
+    /* background: var(--spice-main) !important; */
+    background: linear-gradient(var(--spice-card), var(--spice-main)) !important;
+}
+
+.x-heroCategoryCard-HeroCategoryCard {
+    background-color: var(--spice-card) !important;
+}
+
+.x-categoryCard-CategoryCard {
+    background-color: var(--spice-card) !important;
+}
+
+/*Liked Songs section*/
+
+.main-likedSongsButton-likedSongsIcon {
+    background-image: var(--spice-main) !important;
+}
+
+/*Your Episodes section*/
+
+.main-yourEpisodesButton-yourEpisodesIcon {
+    background-color: var(--spice-main) !important;
+}
+
+.main-yourEpisodes-coverContainer {
+    background-color: var(--spice-card) !important;
+}
+
+.FEi5phk_z4NaECY2cOb1 {
+    background-color: var(--spice-main) !important;
+}
+
+/*Cards in the search section TODO: this is terrible*/
+.main-heroCard-card {
+    background: var(--spice-card) !important;
+}
+.main-card-card {
+    background: var(--spice-main) !important;
+}
