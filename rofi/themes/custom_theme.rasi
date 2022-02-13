@@ -1,8 +1,3 @@
-/******************************************************************************
- * ROFI Color theme
- * User: Rasi
- * Copyright: Rasmus Steinke
- ******************************************************************************/
 configuration {
     font: "Droid Sans Mono 12";
     display-drun: "";
@@ -19,8 +14,6 @@ configuration {
 }
 window {
     background-color: @bg;
-    border:           1;
-    border-color:     @fg;
     padding:          5;
 }
 mainbox {
