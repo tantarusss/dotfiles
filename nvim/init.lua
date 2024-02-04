@@ -108,6 +108,10 @@ require('lazy').setup({
       'rafamadriz/friendly-snippets',
     },
   },
+  {
+  -- amongst your other plugins
+  {'akinsho/toggleterm.nvim', version = "*", config = true}
+},
 
   -- Useful plugin to show you pending keybinds.
   { 'folke/which-key.nvim',  opts = {} },
@@ -244,6 +248,8 @@ require('lazy').setup({
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 
+-- Set indent size to 4
+vim.o.shiftwidth = 4
 -- Set highlight on search
 vim.o.hlsearch = false
 

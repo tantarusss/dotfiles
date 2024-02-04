@@ -1,8 +1,8 @@
 #!/bin/sh
 
-status=$(playerctl metadata --player=spotify_player --format '{{lc(status)}}')
+status=$(playerctl metadata --player=spotify --format '{{lc(status)}}')
 if [[ $status == "playing" ]]; then
-	info=$(playerctl metadata --player=spotify_player --format '{{artist}} - {{title}}')
+	info=$(playerctl metadata --player=spotify --format '{{artist}} - {{title}}')
 	text=$info
 elif [[ $status == "paused" ]]; then
 	text=" "
